@@ -1,0 +1,30 @@
+2025-12-17 17:43:21 - root - INFO - Logging configured at INFO level
+2025-12-17 17:43:21 - root - INFO - Logging to file: /Users/psisquare/Desktop/Digitization/2..CallOpenAI/logs/create_batch_20251217_174321.log
+2025-12-17 17:43:21 - __main__ - INFO - Deleted existing batch file: batch_input_5.jsonl
+2025-12-17 17:43:21 - __main__ - INFO - Deleted existing batch file: batch_input_manifest.json
+2025-12-17 17:43:21 - __main__ - INFO - Deleted existing batch file: batch_input_7.jsonl
+2025-12-17 17:43:21 - __main__ - INFO - Deleted existing batch file: batch_job_id.txt
+2025-12-17 17:43:21 - __main__ - INFO - Deleted existing batch file: batch_input_3.jsonl
+2025-12-17 17:43:21 - __main__ - INFO - Deleted existing batch file: batch_input_1.jsonl
+2025-12-17 17:43:21 - __main__ - INFO - Deleted existing batch file: batch_input_6.jsonl
+2025-12-17 17:43:21 - __main__ - INFO - Deleted existing batch file: batch_input.jsonl
+2025-12-17 17:43:21 - __main__ - INFO - Deleted existing batch file: batch_input_4.jsonl
+2025-12-17 17:43:21 - __main__ - INFO - Deleted existing batch file: batch_input_0.jsonl
+2025-12-17 17:43:21 - __main__ - INFO - Deleted existing batch file: batch_results_parsed.json
+2025-12-17 17:43:21 - __main__ - INFO - Deleted existing batch file: batch_input_2.jsonl
+2025-12-17 17:43:21 - __main__ - INFO - Deleted existing batch file: batch_input_8.jsonl
+2025-12-17 17:43:21 - __main__ - INFO - Deleted existing batch file: batch_job_ids.json
+2025-12-17 17:43:21 - __main__ - INFO - Deleted existing batch file: batch_results.jsonl
+2025-12-17 17:43:21 - __main__ - INFO - Deleted existing batch file: batch_input_9.jsonl
+2025-12-17 17:43:21 - __main__ - INFO - Deleted existing batch file: batch_results_concurrent.json
+2025-12-17 17:43:21 - __main__ - INFO - ======================================================================
+2025-12-17 17:43:21 - __main__ - INFO - Create Batch Input File
+2025-12-17 17:43:21 - __main__ - INFO - ======================================================================
+2025-12-17 17:43:21 - __main__ - INFO - Loading configuration...
+2025-12-17 17:43:21 - src.config - INFO - Configuration loaded successfully
+2025-12-17 17:43:21 - __main__ - INFO - Loading records from: /Users/psisquare/Desktop/Digitization/2..CallOpenAI/../1.FetchFromDB/diamond_records.json
+2025-12-17 17:43:21 - __main__ - INFO - Loaded 1000 records from input file, extracted 1000 certificate_link URLs
+2025-12-17 17:43:21 - __main__ - INFO - Loading prompt...
+2025-12-17 17:43:21 - __main__ - INFO - Creating batch requests (grouping by 5 URLs per request)...
+2025-12-17 17:43:35 - __main__ - INFO - 
+Operation cancelled by user

@@ -1,0 +1,2005 @@
+[
+    {
+      "characteristic_name": "FLUORESCENCE",
+      "characteristic_data": [
+        {
+          "data_type": "D",
+          "type_configuration": [
+            {
+              "name": "default",
+              "value": 5
+            },
+            {
+              "name": "FAINT",
+              "value": 4
+            },
+            {
+              "name": "MEDIUM",
+              "value": 2.5
+            },
+            {
+              "name": "STRONG",
+              "value": 0
+            },
+            {
+              "name": "VERY STRONG",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "data_type": "E",
+          "type_configuration": [
+            {
+              "name": "default",
+              "value": 5
+            },
+            {
+              "name": "FAINT",
+              "value": 4
+            },
+            {
+              "name": "MEDIUM",
+              "value": 2.5
+            },
+            {
+              "name": "STRONG",
+              "value": 0
+            },
+            {
+              "name": "VERY STRONG",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "data_type": "F",
+          "type_configuration": [
+            {
+              "name": "default",
+              "value": 5
+            },
+            {
+              "name": "FAINT",
+              "value": 4
+            },
+            {
+              "name": "MEDIUM",
+              "value": 2.5
+            },
+            {
+              "name": "STRONG",
+              "value": 0
+            },
+            {
+              "name": "VERY STRONG",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "data_type": "G",
+          "type_configuration": [
+            {
+              "name": "default",
+              "value": 5
+            },
+            {
+              "name": "FAINT",
+              "value": 5
+            },
+            {
+              "name": "MEDIUM",
+              "value": 2.5
+            },
+            {
+              "name": "STRONG",
+              "value": 0
+            },
+            {
+              "name": "VERY STRONG",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "data_type": "H",
+          "type_configuration": [
+            {
+              "name": "default",
+              "value": 4.5
+            },
+            {
+              "name": "FAINT",
+              "value": 5
+            },
+            {
+              "name": "MEDIUM",
+              "value": 2.5
+            },
+            {
+              "name": "STRONG",
+              "value": 0
+            },
+            {
+              "name": "VERY STRONG",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "data_type": "I",
+          "type_configuration": [
+            {
+              "name": "default",
+              "value": 4.5
+            },
+            {
+              "name": "FAINT",
+              "value": 5
+            },
+            {
+              "name": "MEDIUM",
+              "value": 3
+            },
+            {
+              "name": "STRONG",
+              "value": 0
+            },
+            {
+              "name": "VERY STRONG",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "data_type": "J",
+          "type_configuration": [
+            {
+              "name": "default",
+              "value": 4
+            },
+            {
+              "name": "FAINT",
+              "value": 5
+            },
+            {
+              "name": "MEDIUM",
+              "value": 3.5
+            },
+            {
+              "name": "STRONG",
+              "value": 1
+            },
+            {
+              "name": "VERY STRONG",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "data_type": "K",
+          "type_configuration": [
+            {
+              "name": "default",
+              "value": 3.5
+            },
+            {
+              "name": "FAINT",
+              "value": 4.5
+            },
+            {
+              "name": "MEDIUM",
+              "value": 5
+            },
+            {
+              "name": "STRONG",
+              "value": 1
+            },
+            {
+              "name": "VERY STRONG",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "data_type": "L",
+          "type_configuration": [
+            {
+              "name": "default",
+              "value": 3
+            },
+            {
+              "name": "FAINT",
+              "value": 4.5
+            },
+            {
+              "name": "MEDIUM",
+              "value": 5
+            },
+            {
+              "name": "STRONG",
+              "value": 1
+            },
+            {
+              "name": "VERY STRONG",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "data_type": "M",
+          "type_configuration": [
+            {
+              "name": "default",
+              "value": 2
+            },
+            {
+              "name": "FAINT",
+              "value": 4
+            },
+            {
+              "name": "MEDIUM",
+              "value": 5
+            },
+            {
+              "name": "STRONG",
+              "value": 1
+            },
+            {
+              "name": "VERY STRONG",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "data_type": "N",
+          "type_configuration": [
+            {
+              "name": "default",
+              "value": 2
+            },
+            {
+              "name": "FAINT",
+              "value": 4
+            },
+            {
+              "name": "MEDIUM",
+              "value": 5
+            },
+            {
+              "name": "STRONG",
+              "value": 1
+            },
+            {
+              "name": "VERY STRONG",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "data_type": "O",
+          "type_configuration": [
+            {
+              "name": "default",
+              "value": 2
+            },
+            {
+              "name": "FAINT",
+              "value": 4
+            },
+            {
+              "name": "MEDIUM",
+              "value": 5
+            },
+            {
+              "name": "STRONG",
+              "value": 1
+            },
+            {
+              "name": "VERY STRONG",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "data_type": "P",
+          "type_configuration": [
+            {
+              "name": "default",
+              "value": 2
+            },
+            {
+              "name": "FAINT",
+              "value": 4
+            },
+            {
+              "name": "MEDIUM",
+              "value": 5
+            },
+            {
+              "name": "STRONG",
+              "value": 1
+            },
+            {
+              "name": "VERY STRONG",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "data_type": "Q",
+          "type_configuration": [
+            {
+              "name": "default",
+              "value": 2
+            },
+            {
+              "name": "FAINT",
+              "value": 4
+            },
+            {
+              "name": "MEDIUM",
+              "value": 5
+            },
+            {
+              "name": "STRONG",
+              "value": 1
+            },
+            {
+              "name": "VERY STRONG",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "data_type": "R",
+          "type_configuration": [
+            {
+              "name": "default",
+              "value": 2
+            },
+            {
+              "name": "FAINT",
+              "value": 4
+            },
+            {
+              "name": "MEDIUM",
+              "value": 5
+            },
+            {
+              "name": "STRONG",
+              "value": 1
+            },
+            {
+              "name": "VERY STRONG",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "data_type": "S",
+          "type_configuration": [
+            {
+              "name": "default",
+              "value": 2
+            },
+            {
+              "name": "FAINT",
+              "value": 4
+            },
+            {
+              "name": "MEDIUM",
+              "value": 5
+            },
+            {
+              "name": "STRONG",
+              "value": 1
+            },
+            {
+              "name": "VERY STRONG",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "data_type": "T",
+          "type_configuration": [
+            {
+              "name": "default",
+              "value": 2
+            },
+            {
+              "name": "FAINT",
+              "value": 4
+            },
+            {
+              "name": "MEDIUM",
+              "value": 5
+            },
+            {
+              "name": "STRONG",
+              "value": 1
+            },
+            {
+              "name": "VERY STRONG",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "data_type": "U",
+          "type_configuration": [
+            {
+              "name": "default",
+              "value": 2
+            },
+            {
+              "name": "FAINT",
+              "value": 4
+            },
+            {
+              "name": "MEDIUM",
+              "value": 5
+            },
+            {
+              "name": "STRONG",
+              "value": 1
+            },
+            {
+              "name": "VERY STRONG",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "data_type": "V",
+          "type_configuration": [
+            {
+              "name": "default",
+              "value": 2
+            },
+            {
+              "name": "FAINT",
+              "value": 4
+            },
+            {
+              "name": "MEDIUM",
+              "value": 5
+            },
+            {
+              "name": "STRONG",
+              "value": 1
+            },
+            {
+              "name": "VERY STRONG",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "data_type": "W",
+          "type_configuration": [
+            {
+              "name": "default",
+              "value": 2
+            },
+            {
+              "name": "FAINT",
+              "value": 4
+            },
+            {
+              "name": "MEDIUM",
+              "value": 5
+            },
+            {
+              "name": "STRONG",
+              "value": 1
+            },
+            {
+              "name": "VERY STRONG",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "data_type": "X",
+          "type_configuration": [
+            {
+              "name": "default",
+              "value": 2
+            },
+            {
+              "name": "FAINT",
+              "value": 4
+            },
+            {
+              "name": "MEDIUM",
+              "value": 5
+            },
+            {
+              "name": "STRONG",
+              "value": 1
+            },
+            {
+              "name": "VERY STRONG",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "data_type": "Y",
+          "type_configuration": [
+            {
+              "name": "default",
+              "value": 2
+            },
+            {
+              "name": "FAINT",
+              "value": 4
+            },
+            {
+              "name": "MEDIUM",
+              "value": 5
+            },
+            {
+              "name": "STRONG",
+              "value": 1
+            },
+            {
+              "name": "VERY STRONG",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "data_type": "Z",
+          "type_configuration": [
+            {
+              "name": "default",
+              "value": 2
+            },
+            {
+              "name": "FAINT",
+              "value": 4
+            },
+            {
+              "name": "MEDIUM",
+              "value": 5
+            },
+            {
+              "name": "STRONG",
+              "value": 1
+            },
+            {
+              "name": "VERY STRONG",
+              "value": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "characteristic_name": "GIRDLE THICKNESS",
+      "characteristic_data": [
+        {
+          "name": "EXTREMELY THIN",
+          "value": 2
+        },
+        {
+          "name": "EXTREMELY THIN TO VERY THIN",
+          "value": 3
+        },
+        {
+          "name": "THIN",
+          "value": 5
+        },
+        {
+          "name": "THIN TO MEDIUM",
+          "value": 4
+        },
+        {
+          "name": "THIN MEDIUM",
+          "value": 4
+        },
+        {
+          "name": "MEDIUM",
+          "value": 5
+        },
+        {
+          "name": "MEDIUM TO SLIGHTLY THICK",
+          "value": 4.85
+        },
+        {
+          "name": "MEDIUM SLIGHTLY THICK",
+          "value": 4.85
+        },
+        {
+          "name": "SLIGHTLY THICK",
+          "value": 4.75
+        },
+        {
+          "name": "SLIGHTLY THICK TO THICK",
+          "value": 3.5
+        },
+        {
+          "name": "SLIGHTLY THICK THICK",
+          "value": 3.5
+        },
+        {
+          "name": "THICK",
+          "value": 3
+        },
+        {
+          "name": "THICK TO VERY THICK",
+          "value": 1.5
+        },
+        {
+          "name": "THICK VERY THICK",
+          "value": 1.5
+        },
+        {
+          "name": "EXTREMELY THICK",
+          "value": 0
+        },
+        {
+          "name": "EXTREMELY THICK TO EXTREMELY THICK",
+          "value": 0
+        },
+        {
+          "name": "EXTREMELY THICK TO THICK",
+          "value": 0
+        },
+        {
+          "name": "EXTREMELY THIN TO EXTREMELY THICK",
+          "value": 0
+        },
+        {
+          "name": "EXTREMELY THIN TO MEDIUM",
+          "value": 2.5
+        },
+        {
+          "name": "EXTREMELY THIN TO SLIGHTLY THICK",
+          "value": 2
+        },
+        {
+          "name": "EXTREMELY THIN TO THICK",
+          "value": 1.5
+        },
+        {
+          "name": "EXTREMELY THIN TO THIN",
+          "value": 3
+        },
+        {
+          "name": "EXTREMELY THIN TO VERY THICK",
+          "value": 0.5
+        },
+        {
+          "name": "MEDIUM TO EXTREMELY THICK",
+          "value": 0
+        },
+        {
+          "name": "MEDIUM TO MEDIUM",
+          "value": 5
+        },
+        {
+          "name": "MEDIUM TO THICK",
+          "value": 3
+        },
+        {
+          "name": "MEDIUM TO VERY THICK",
+          "value": 1.5
+        },
+        {
+          "name": "MEDIUM TO SLIGHTLY",
+          "value": 4.85
+        },
+        {
+          "name": "MEDIUM TO VERY",
+          "value": 0
+        },
+        {
+          "name": "MEDIUM TO SLIGHTLY THICK",
+          "value": 4.85
+        },
+        {
+          "name": "SLIGHTLY THICK TO EXTREMELY THICK",
+          "value": 0
+        },
+        {
+          "name": "SLIGHTLY THICK TO VERY THICK",
+          "value": 1.5
+        },
+        {
+          "name": "SLIGHTLY THICK TO VERY",
+          "value": 1.5
+        },
+        {
+          "name": "THICK TO EXTREMELY THICK",
+          "value": 0
+        },
+        {
+          "name": "THICK TO THICK",
+          "value": 2.5
+        },
+        {
+          "name": "THIN TO EXTREMELY THICK",
+          "value": 0
+        },
+        {
+          "name": "THIN TO SLIGHTLY THICK",
+          "value": 4
+        },
+        {
+          "name": "THIN TO SLIGHTLY THIN",
+          "value": 5
+        },
+        {
+          "name": "THIN TO THICK",
+          "value": 3
+        },
+        {
+          "name": "THIN TO THIN",
+          "value": 5
+        },
+        {
+          "name": "THIN TO VERY THICK",
+          "value": 1.5
+        },
+        {
+          "name": "THIN TO SLIGHTLY",
+          "value": 4
+        },
+        {
+          "name": "VERY THICK TO EXTREMELY THICK",
+          "value": 0
+        },
+        {
+          "name": "VERY THICK TO MEDIUM",
+          "value": 0
+        },
+        {
+          "name": "VERY THICK TO VERY THICK",
+          "value": 1.5
+        },
+        {
+          "name": "VERY THIN TO EXTREMELY THICK",
+          "value": 0
+        },
+        {
+          "name": "VERY THIN TO MEDIUM",
+          "value": 3.5
+        },
+        {
+          "name": "VERY THIN TO EXTREMELY THIN",
+          "value": 0
+        },
+        {
+          "name": "VERY THIN TO THICK",
+          "value": 2
+        },
+        {
+          "name": "VERY THIN TO THIN",
+          "value": 4.5
+        },
+        {
+          "name": "VERY THIN TO VERY THICK",
+          "value": 1.5
+        },
+        {
+          "name": "VERY THIN TO VERY THIN",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "characteristic_name": "GIRDLE THICKNESS HEART",
+      "characteristic_data": [
+        {
+          "name": "EXTREMELY THIN",
+          "value": 2
+        },
+        {
+          "name": "EXTREMELY THIN TO VERY THIN",
+          "value": 3
+        },
+        {
+          "name": "THIN",
+          "value": 5
+        },
+        {
+          "name": "THIN TO MEDIUM",
+          "value": 5
+        },
+        {
+          "name": "THIN MEDIUM",
+          "value": 5
+        },
+        {
+          "name": "MEDIUM",
+          "value": 5
+        },
+        {
+          "name": "MEDIUM TO SLIGHTLY THICK",
+          "value": 4.85
+        },
+        {
+          "name": "MEDIUM SLIGHTLY THICK",
+          "value": 4.85
+        },
+        {
+          "name": "SLIGHTLY THICK",
+          "value": 4.75
+        },
+        {
+          "name": "SLIGHTLY THICK TO THICK",
+          "value": 4.5
+        },
+        {
+          "name": "SLIGHTLY THICK THICK",
+          "value": 4.5
+        },
+        {
+          "name": "THICK",
+          "value": 4
+        },
+        {
+          "name": "THICK TO VERY THICK",
+          "value": 3.5
+        },
+        {
+          "name": "THICK VERY THICK",
+          "value": 3.5
+        },
+        {
+          "name": "EXTREMELY THICK",
+          "value": 0
+        },
+        {
+          "name": "EXTREMELY THICK TO EXTREMELY THICK",
+          "value": 0
+        },
+        {
+          "name": "EXTREMELY THICK TO THICK",
+          "value": 0
+        },
+        {
+          "name": "EXTREMELY THIN TO EXTREMELY THICK",
+          "value": 0
+        },
+        {
+          "name": "EXTREMELY THIN TO MEDIUM",
+          "value": 2.5
+        },
+        {
+          "name": "EXTREMELY THIN TO SLIGHTLY THICK",
+          "value": 2
+        },
+        {
+          "name": "EXTREMELY THIN TO THICK",
+          "value": 1.5
+        },
+        {
+          "name": "EXTREMELY THIN TO THIN",
+          "value": 3
+        },
+        {
+          "name": "EXTREMELY THIN TO VERY THICK",
+          "value": 0.5
+        },
+        {
+          "name": "MEDIUM TO EXTREMELY THICK",
+          "value": 0
+        },
+        {
+          "name": "MEDIUM TO MEDIUM",
+          "value": 5
+        },
+        {
+          "name": "MEDIUM TO THICK",
+          "value": 3
+        },
+        {
+          "name": "MEDIUM TO VERY THICK",
+          "value": 1.5
+        },
+        {
+          "name": "MEDIUM TO SLIGHTLY",
+          "value": 4.85
+        },
+        {
+          "name": "MEDIUM TO VERY",
+          "value": 0
+        },
+        {
+          "name": "MEDIUM TO SLIGHTLY THICK",
+          "value": 4.85
+        },
+        {
+          "name": "SLIGHTLY THICK TO EXTREMELY THICK",
+          "value": 0
+        },
+        {
+          "name": "SLIGHTLY THICK TO VERY THICK",
+          "value": 1.5
+        },
+        {
+          "name": "SLIGHTLY THICK TO VERY",
+          "value": 1.5
+        },
+        {
+          "name": "THICK TO EXTREMELY THICK",
+          "value": 0
+        },
+        {
+          "name": "THICK TO THICK",
+          "value": 2.5
+        },
+        {
+          "name": "THIN TO EXTREMELY THICK",
+          "value": 0
+        },
+        {
+          "name": "THIN TO SLIGHTLY THICK",
+          "value": 4
+        },
+        {
+          "name": "THIN TO SLIGHTLY THIN",
+          "value": 5
+        },
+        {
+          "name": "THIN TO THICK",
+          "value": 3
+        },
+        {
+          "name": "THIN TO THIN",
+          "value": 5
+        },
+        {
+          "name": "THIN TO VERY THICK",
+          "value": 1.5
+        },
+        {
+          "name": "THIN TO SLIGHTLY",
+          "value": 4
+        },
+        {
+          "name": "VERY THICK TO EXTREMELY THICK",
+          "value": 0
+        },
+        {
+          "name": "VERY THICK TO MEDIUM",
+          "value": 0
+        },
+        {
+          "name": "VERY THICK TO VERY THICK",
+          "value": 1.5
+        },
+        {
+          "name": "VERY THIN TO EXTREMELY THICK",
+          "value": 0
+        },
+        {
+          "name": "VERY THIN TO MEDIUM",
+          "value": 3.5
+        },
+        {
+          "name": "VERY THIN TO EXTREMELY THIN",
+          "value": 0
+        },
+        {
+          "name": "VERY THIN TO THICK",
+          "value": 2
+        },
+        {
+          "name": "VERY THIN TO THIN",
+          "value": 4.5
+        },
+        {
+          "name": "VERY THIN TO VERY THICK",
+          "value": 1.5
+        },
+        {
+          "name": "VERY THIN TO VERY THIN",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "characteristic_name": "ROUND SCORE",
+      "characteristic_data": [
+        {
+          "data_type": "EXCELLENT",
+          "type_configuration": [
+            {
+              "name": "CUT GRADE",
+              "value": 5
+            },
+            {
+              "name": "POLISH",
+              "value": 5
+            },
+            {
+              "name": "SYMMETRY",
+              "value": 5
+            }
+          ]
+        },
+        {
+          "data_type": "VERY GOOD",
+          "type_configuration": [
+            {
+              "name": "CUT GRADE",
+              "value": 4
+            },
+            {
+              "name": "POLISH",
+              "value": 4
+            },
+            {
+              "name": "SYMMETRY",
+              "value": 4
+            }
+          ]
+        },
+        {
+          "data_type": "GOOD",
+          "type_configuration": [
+            {
+              "name": "CUT GRADE",
+              "value": 3
+            },
+            {
+              "name": "POLISH",
+              "value": 3
+            },
+            {
+              "name": "SYMMETRY",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "data_type": "FAIR",
+          "type_configuration": [
+            {
+              "name": "CUT GRADE",
+              "value": 2
+            },
+            {
+              "name": "POLISH",
+              "value": 2
+            },
+            {
+              "name": "SYMMETRY",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "data_type": "FOOR",
+          "type_configuration": [
+            {
+              "name": "CUT GRADE",
+              "value": 1
+            },
+            {
+              "name": "POLISH",
+              "value": 1
+            },
+            {
+              "name": "SYMMETRY",
+              "value": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "characteristic_name": "KEYS TO SYMBOLS",
+      "characteristic_data": [
+        {
+          "data_type": "CAVITY",
+          "type_configuration": [
+            {
+              "name": "GENERAL",
+              "value": 0
+            },
+            {
+              "name": "TABLE",
+              "value": 0
+            },
+            {
+              "name": "CROWN",
+              "value": 0
+            },
+            {
+              "name": "PAVILLION",
+              "value": 0
+            },
+            {
+              "name": "GIRDLE",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "data_type": "KNOT",
+          "type_configuration": [
+            {
+              "name": "GENERAL",
+              "value": 0
+            },
+            {
+              "name": "TABLE",
+              "value": 0
+            },
+            {
+              "name": "CROWN",
+              "value": 0
+            },
+            {
+              "name": "PAVILLION",
+              "value": 0
+            },
+            {
+              "name": "GIRDLE",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "data_type": "BRUISE",
+          "type_configuration": [
+            {
+              "name": "GENERAL",
+              "value": 2
+            },
+            {
+              "name": "TABLE",
+              "value": 0
+            },
+            {
+              "name": "CROWN",
+              "value": 2
+            },
+            {
+              "name": "PAVILLION",
+              "value": 2
+            },
+            {
+              "name": "GIRDLE",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "data_type": "CHIP",
+          "type_configuration": [
+            {
+              "name": "GENERAL",
+              "value": 1
+            },
+            {
+              "name": "TABLE",
+              "value": 0
+            },
+            {
+              "name": "CROWN",
+              "value": 1
+            },
+            {
+              "name": "PAVILLION",
+              "value": 0
+            },
+            {
+              "name": "GIRDLE",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "data_type": "LASER DRILL",
+          "type_configuration": [
+            {
+              "name": "GENERAL",
+              "value": 0
+            },
+            {
+              "name": "TABLE",
+              "value": 0
+            },
+            {
+              "name": "CROWN",
+              "value": 0
+            },
+            {
+              "name": "PAVILLION",
+              "value": 0
+            },
+            {
+              "name": "GIRDLE",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "data_type": "ETCHED CHANNEL",
+          "type_configuration": [
+            {
+              "name": "GENERAL",
+              "value": 1
+            },
+            {
+              "name": "TABLE",
+              "value": 0
+            },
+            {
+              "name": "CROWN",
+              "value": 0.5
+            },
+            {
+              "name": "PAVILLION",
+              "value": 1
+            },
+            {
+              "name": "GIRDLE",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "data_type": "INDENTED NATURAL",
+          "type_configuration": [
+            {
+              "name": "GENERAL",
+              "value": 1
+            },
+            {
+              "name": "TABLE",
+              "value": 0
+            },
+            {
+              "name": "CROWN",
+              "value": 1
+            },
+            {
+              "name": "PAVILLION",
+              "value": 0
+            },
+            {
+              "name": "GIRDLE",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "data_type": "NATURAL",
+          "type_configuration": [
+            {
+              "name": "GENERAL",
+              "value": 2
+            },
+            {
+              "name": "TABLE",
+              "value": 0
+            },
+            {
+              "name": "CROWN",
+              "value": 1
+            },
+            {
+              "name": "PAVILLION",
+              "value": 0
+            },
+            {
+              "name": "GIRDLE",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "data_type": "TWINNING WISP",
+          "type_configuration": [
+            {
+              "name": "GENERAL",
+              "value": 3
+            },
+            {
+              "name": "TABLE",
+              "value": 2.5
+            },
+            {
+              "name": "CROWN",
+              "value": 3
+            },
+            {
+              "name": "PAVILLION",
+              "value": 3
+            },
+            {
+              "name": "GIRDLE"
+            }
+          ]
+        },
+        {
+          "data_type": "FEATHER",
+          "type_configuration": [
+            {
+              "name": "GENERAL",
+              "value": 3
+            },
+            {
+              "name": "TABLE",
+              "value": 2
+            },
+            {
+              "name": "CROWN",
+              "value": 3
+            },
+            {
+              "name": "PAVILLION",
+              "value": 3
+            },
+            {
+              "name": "GIRDLE",
+              "value": 1.5
+            }
+          ]
+        },
+        {
+          "data_type": "NEEDLE",
+          "type_configuration": [
+            {
+              "name": "GENERAL",
+              "value": 4.75
+            },
+            {
+              "name": "TABLE",
+              "value": 3.5
+            },
+            {
+              "name": "CROWN",
+              "value": 4.75
+            },
+            {
+              "name": "PAVILLION",
+              "value": 4.75
+            },
+            {
+              "name": "GIRDLE",
+              "value": 5
+            }
+          ]
+        },
+        {
+          "data_type": "PINPOINT",
+          "type_configuration": [
+            {
+              "name": "GENERAL",
+              "value": 5
+            },
+            {
+              "name": "TABLE",
+              "value": 3.75
+            },
+            {
+              "name": "CROWN",
+              "value": 5
+            },
+            {
+              "name": "PAVILLION",
+              "value": 5
+            },
+            {
+              "name": "GIRDLE",
+              "value": 5
+            }
+          ]
+        },
+        {
+          "data_type": "CLOUD",
+          "type_configuration": [
+            {
+              "name": "GENERAL",
+              "value": 3.5
+            },
+            {
+              "name": "TABLE",
+              "value": 2
+            },
+            {
+              "name": "CROWN",
+              "value": 3.5
+            },
+            {
+              "name": "PAVILLION",
+              "value": 2.5
+            },
+            {
+              "name": "GIRDLE",
+              "value": 3.5
+            }
+          ]
+        },
+        {
+          "data_type": "CRYSTAL",
+          "type_configuration": [
+            {
+              "name": "GENERAL",
+              "value": 3.5
+            },
+            {
+              "name": "TABLE",
+              "value": 1.5
+            },
+            {
+              "name": "CROWN",
+              "value": 3
+            },
+            {
+              "name": "PAVILLION",
+              "value": 2.5
+            },
+            {
+              "name": "GIRDLE",
+              "value": 3.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "characteristic_name": "round_crown",
+      "characteristic_data": {
+        "30-31.5": 2,
+        "32-32.5": 3,
+        "33": 4,
+        "33.5-35.5": 5,
+        "36-36.5": 4,
+        "37": 2,
+        "37.5": 1
+      }
+    },
+    {
+      "characteristic_name": "pavillion_angle",
+      "characteristic_data": {
+        "39.5-39.9": 4,
+        "40-40.4": 4.5,
+        "40.5-41.6": 5,
+        "41.7-42.4": 4.5
+      }
+    },
+    {
+      "characteristic_name": "culet",
+      "characteristic_data": [
+        {
+          "shape": "Round",
+          "value": [
+            {
+              "name": "EXTREMELY LARGE",
+              "value": 0
+            },
+            {
+              "name": "LARGE",
+              "value": 0
+            },
+            {
+              "name": "MEDIUM",
+              "value": 0
+            },
+            {
+              "name": "NONE",
+              "value": 5
+            },
+            {
+              "name": "POINTED",
+              "value": 5
+            },
+            {
+              "name": "SMALL",
+              "value": 0
+            },
+            {
+              "name": "SLIGHTLY SMALL",
+              "value": 0
+            },
+            {
+              "name": "VERY LARGE",
+              "value": 0
+            },
+            {
+              "name": "VERY SMALL",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "shape": "Princess",
+          "value": [
+            {
+              "name": "EXTREMELY LARGE",
+              "value": 0
+            },
+            {
+              "name": "LARGE",
+              "value": 0
+            },
+            {
+              "name": "MEDIUM",
+              "value": 1
+            },
+            {
+              "name": "NONE",
+              "value": 5
+            },
+            {
+              "name": "POINTED",
+              "value": 5
+            },
+            {
+              "name": "SMALL",
+              "value": 3
+            },
+            {
+              "name": "SLIGHTLY SMALL",
+              "value": 3
+            },
+            {
+              "name": "VERY LARGE",
+              "value": 0
+            },
+            {
+              "name": "VERY SMALL",
+              "value": 5
+            }
+          ]
+        },
+        {
+          "shape": "Emerald",
+          "value": [
+            {
+              "name": "EXTREMELY LARGE",
+              "value": 0
+            },
+            {
+              "name": "LARGE",
+              "value": 0
+            },
+            {
+              "name": "MEDIUM",
+              "value": 1
+            },
+            {
+              "name": "NONE",
+              "value": 5
+            },
+            {
+              "name": "POINTED",
+              "value": 5
+            },
+            {
+              "name": "SMALL",
+              "value": 3
+            },
+            {
+              "name": "SLIGHTLY SMALL",
+              "value": 3
+            },
+            {
+              "name": "VERY LARGE",
+              "value": 0
+            },
+            {
+              "name": "VERY SMALL",
+              "value": 5
+            }
+          ]
+        },
+        {
+          "shape": "Oval",
+          "value": [
+            {
+              "name": "EXTREMELY LARGE",
+              "value": 0
+            },
+            {
+              "name": "LARGE",
+              "value": 0
+            },
+            {
+              "name": "MEDIUM",
+              "value": 1
+            },
+            {
+              "name": "NONE",
+              "value": 5
+            },
+            {
+              "name": "POINTED",
+              "value": 5
+            },
+            {
+              "name": "SMALL",
+              "value": 3
+            },
+            {
+              "name": "SLIGHTLY SMALL",
+              "value": 3
+            },
+            {
+              "name": "VERY LARGE",
+              "value": 0
+            },
+            {
+              "name": "VERY SMALL",
+              "value": 5
+            }
+          ]
+        },
+        {
+          "shape": "Pear",
+          "value": [
+            {
+              "name": "EXTREMELY LARGE",
+              "value": 0
+            },
+            {
+              "name": "LARGE",
+              "value": 0
+            },
+            {
+              "name": "MEDIUM",
+              "value": 1
+            },
+            {
+              "name": "NONE",
+              "value": 5
+            },
+            {
+              "name": "POINTED",
+              "value": 5
+            },
+            {
+              "name": "SMALL",
+              "value": 3
+            },
+            {
+              "name": "SLIGHTLY SMALL",
+              "value": 3
+            },
+            {
+              "name": "VERY LARGE",
+              "value": 0
+            },
+            {
+              "name": "VERY SMALL",
+              "value": 5
+            }
+          ]
+        },
+        {
+          "shape": "Asscher",
+          "value": [
+            {
+              "name": "EXTREMELY LARGE",
+              "value": 0
+            },
+            {
+              "name": "LARGE",
+              "value": 0
+            },
+            {
+              "name": "MEDIUM",
+              "value": 1
+            },
+            {
+              "name": "NONE",
+              "value": 5
+            },
+            {
+              "name": "POINTED",
+              "value": 5
+            },
+            {
+              "name": "SMALL",
+              "value": 3
+            },
+            {
+              "name": "SLIGHTLY SMALL",
+              "value": 3
+            },
+            {
+              "name": "VERY LARGE",
+              "value": 0
+            },
+            {
+              "name": "VERY SMALL",
+              "value": 5
+            }
+          ]
+        },
+        {
+          "shape": "Cushion",
+          "value": [
+            {
+              "name": "EXTREMELY LARGE",
+              "value": 0
+            },
+            {
+              "name": "LARGE",
+              "value": 0
+            },
+            {
+              "name": "MEDIUM",
+              "value": 1
+            },
+            {
+              "name": "NONE",
+              "value": 5
+            },
+            {
+              "name": "POINTED",
+              "value": 5
+            },
+            {
+              "name": "SMALL",
+              "value": 3
+            },
+            {
+              "name": "SLIGHTLY SMALL",
+              "value": 3
+            },
+            {
+              "name": "VERY LARGE",
+              "value": 0
+            },
+            {
+              "name": "VERY SMALL",
+              "value": 5
+            }
+          ]
+        },
+        {
+          "shape": "Heart",
+          "value": [
+            {
+              "name": "EXTREMELY LARGE",
+              "value": 0
+            },
+            {
+              "name": "LARGE",
+              "value": 0
+            },
+            {
+              "name": "MEDIUM",
+              "value": 1
+            },
+            {
+              "name": "NONE",
+              "value": 5
+            },
+            {
+              "name": "POINTED",
+              "value": 5
+            },
+            {
+              "name": "SMALL",
+              "value": 3
+            },
+            {
+              "name": "SLIGHTLY SMALL",
+              "value": 3
+            },
+            {
+              "name": "VERY LARGE",
+              "value": 0
+            },
+            {
+              "name": "VERY SMALL",
+              "value": 5
+            }
+          ]
+        },
+        {
+          "shape": "Marquise",
+          "value": [
+            {
+              "name": "EXTREMELY LARGE",
+              "value": 0
+            },
+            {
+              "name": "LARGE",
+              "value": 0
+            },
+            {
+              "name": "MEDIUM",
+              "value": 1
+            },
+            {
+              "name": "NONE",
+              "value": 5
+            },
+            {
+              "name": "POINTED",
+              "value": 5
+            },
+            {
+              "name": "SMALL",
+              "value": 3
+            },
+            {
+              "name": "SLIGHTLY SMALL",
+              "value": 3
+            },
+            {
+              "name": "VERY LARGE",
+              "value": 0
+            },
+            {
+              "name": "VERY SMALL",
+              "value": 5
+            }
+          ]
+        },
+        {
+          "shape": "Radiant",
+          "value": [
+            {
+              "name": "EXTREMELY LARGE",
+              "value": 0
+            },
+            {
+              "name": "LARGE",
+              "value": 0
+            },
+            {
+              "name": "MEDIUM",
+              "value": 1
+            },
+            {
+              "name": "NONE",
+              "value": 5
+            },
+            {
+              "name": "POINTED",
+              "value": 5
+            },
+            {
+              "name": "SMALL",
+              "value": 3
+            },
+            {
+              "name": "SLIGHTLY SMALL",
+              "value": 3
+            },
+            {
+              "name": "VERY LARGE",
+              "value": 0
+            },
+            {
+              "name": "VERY SMALL",
+              "value": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "characteristic_name": "measurement",
+      "characteristic_data": [
+        {
+          "weight": "0.00-0.54",
+          "value": 4.95
+        },
+        {
+          "weight": "0.55-0.58",
+          "value": 5.2
+        },
+        {
+          "weight": "0.59-0.63",
+          "value": 5.3
+        },
+        {
+          "weight": "0.64-0.68",
+          "value": 5.4
+        },
+        {
+          "weight": "0.69-0.73",
+          "value": 5.6
+        },
+        {
+          "weight": "0.74-0.78",
+          "value": 5.7
+        },
+        {
+          "weight": "0.79-0.83",
+          "value": 5.8
+        },
+        {
+          "weight": "0.84-0.88",
+          "value": 5.9
+        },
+        {
+          "weight": "0.89-0.93",
+          "value": 6
+        },
+        {
+          "weight": "0.94-0.98",
+          "value": 6.2
+        },
+        {
+          "weight": "0.99-1.03",
+          "value": 6.4
+        },
+        {
+          "weight": "1.04-1.08",
+          "value": 6.43
+        },
+        {
+          "weight": "1.09-1.09",
+          "value": 6.52
+        },
+        {
+          "weight": "1.10-1.14",
+          "value": 6.55
+        },
+        {
+          "weight": "1.15-1.19",
+          "value": 6.66
+        },
+        {
+          "weight": "1.20-1.24",
+          "value": 6.75
+        },
+        {
+          "weight": "1.25-1.29",
+          "value": 6.85
+        },
+        {
+          "weight": "1.30-1.34",
+          "value": 6.91
+        },
+        {
+          "weight": "1.35-1.39",
+          "value": 7.01
+        },
+        {
+          "weight": "1.40-1.44",
+          "value": 7.1
+        },
+        {
+          "weight": "1.45-1.49",
+          "value": 7.2
+        },
+        {
+          "weight": "1.50-1.54",
+          "value": 7.4
+        },
+        {
+          "weight": "1.55-1.59",
+          "value": 7.5
+        },
+        {
+          "weight": "1.60-1.69",
+          "value": 7.6
+        },
+        {
+          "weight": "1.70-1.79",
+          "value": 7.7
+        },
+        {
+          "weight": "1.80-1.89",
+          "value": 7.8
+        },
+        {
+          "weight": "1.90-1.99",
+          "value": 7.9
+        },
+        {
+          "weight": "2.00-2.04",
+          "value": 8
+        }
+      ]
+    }
+  ]

@@ -1,0 +1,92 @@
+2025-12-17 18:05:34 - root - INFO - Logging configured at INFO level
+2025-12-17 18:05:34 - root - INFO - Logging to file: /Users/psisquare/Desktop/Digitization/2..CallOpenAI/logs/create_batch_concurrent_20251217_180534.log
+2025-12-17 18:05:34 - __main__ - INFO - Deleted existing batch file: batch_input_5.jsonl
+2025-12-17 18:05:34 - __main__ - INFO - Deleted existing batch file: batch_input_manifest.json
+2025-12-17 18:05:34 - __main__ - INFO - Deleted existing batch file: batch_input_7.jsonl
+2025-12-17 18:05:34 - __main__ - INFO - Deleted existing batch file: batch_input_3.jsonl
+2025-12-17 18:05:34 - __main__ - INFO - Deleted existing batch file: batch_input_1.jsonl
+2025-12-17 18:05:34 - __main__ - INFO - Deleted existing batch file: batch_input_6.jsonl
+2025-12-17 18:05:34 - __main__ - INFO - Deleted existing batch file: batch_input_4.jsonl
+2025-12-17 18:05:34 - __main__ - INFO - Deleted existing batch file: batch_input_0.jsonl
+2025-12-17 18:05:34 - __main__ - INFO - Deleted existing batch file: batch_input_2.jsonl
+2025-12-17 18:05:34 - __main__ - INFO - Deleted existing batch file: batch_input_8.jsonl
+2025-12-17 18:05:34 - __main__ - INFO - Deleted existing batch file: batch_input_9.jsonl
+2025-12-17 18:05:34 - __main__ - INFO - ======================================================================
+2025-12-17 18:05:34 - __main__ - INFO - Create Concurrent Batch Input Files
+2025-12-17 18:05:34 - __main__ - INFO - ======================================================================
+2025-12-17 18:05:34 - __main__ - INFO - Loading configuration...
+2025-12-17 18:05:34 - src.config - INFO - Configuration loaded successfully
+2025-12-17 18:05:34 - __main__ - INFO - Loading records from: /Users/psisquare/Desktop/Digitization/2..CallOpenAI/../1.FetchFromDB/diamond_records.json
+2025-12-17 18:05:34 - __main__ - INFO - Loaded 1000 records from input file, extracted 1000 certificate_link URLs
+2025-12-17 18:05:34 - __main__ - INFO - Loading prompt...
+2025-12-17 18:05:34 - __main__ - INFO - Configuration:
+2025-12-17 18:05:34 - __main__ - INFO -   - Total URLs: 1000
+2025-12-17 18:05:34 - __main__ - INFO -   - Number of jobs: 10
+2025-12-17 18:05:34 - __main__ - INFO -   - URLs per job: ~100
+2025-12-17 18:05:34 - __main__ - INFO -   - URLs per request: 5
+2025-12-17 18:05:34 - __main__ - INFO -   - Requests per job: ~20
+2025-12-17 18:05:34 - __main__ - INFO - Job 1/10: Processing URLs 0 to 99 (100 URLs)
+2025-12-17 18:05:34 - __main__ - INFO - Job 2/10: Processing URLs 100 to 199 (100 URLs)
+2025-12-17 18:05:34 - __main__ - INFO - Job 3/10: Processing URLs 200 to 299 (100 URLs)
+2025-12-17 18:05:34 - __main__ - INFO - Job 4/10: Processing URLs 300 to 399 (100 URLs)
+2025-12-17 18:05:34 - __main__ - INFO - Job 5/10: Processing URLs 400 to 499 (100 URLs)
+2025-12-17 18:05:34 - __main__ - INFO - Job 6/10: Processing URLs 500 to 599 (100 URLs)
+2025-12-17 18:05:34 - __main__ - INFO - Job 7/10: Processing URLs 600 to 699 (100 URLs)
+2025-12-17 18:05:34 - __main__ - INFO - Job 8/10: Processing URLs 700 to 799 (100 URLs)
+2025-12-17 18:05:34 - __main__ - INFO - Job 9/10: Processing URLs 800 to 899 (100 URLs)
+2025-12-17 18:05:34 - __main__ - INFO - Job 10/10: Processing URLs 900 to 999 (100 URLs)
+2025-12-17 18:08:44 - src.openai_client - WARNING - Failed to download or encode image from URL 'https://ion.r2net.com/certs/Gertificate/67b53bfe-227d-466f-8bfa-e1f492806c19': HTTPSConnectionPool(host='ion.r2net.com', port=443): Max retries exceeded with url: /certs/Gertificate/67b53bfe-227d-466f-8bfa-e1f492806c19 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x10d142230>, 'Connection to ion.r2net.com timed out. (connect timeout=120)'))
+2025-12-17 18:08:45 - src.openai_client - WARNING - Failed to download or encode image from URL 'https://ion.r2net.com/certs/Gertificate/c3a3080d-be67-491f-92c2-e638a962ed56': HTTPSConnectionPool(host='ion.r2net.com', port=443): Max retries exceeded with url: /certs/Gertificate/c3a3080d-be67-491f-92c2-e638a962ed56 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x10d1439a0>, 'Connection to ion.r2net.com timed out. (connect timeout=120)'))
+2025-12-17 18:08:45 - src.openai_client - WARNING - Failed to download or encode image from URL 'https://ion.r2net.com/certs/Gertificate/ceb1c1f6-2790-41d8-87f5-2c67b68fd57f': HTTPSConnectionPool(host='ion.r2net.com', port=443): Max retries exceeded with url: /certs/Gertificate/ceb1c1f6-2790-41d8-87f5-2c67b68fd57f (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x10d140670>, 'Connection to ion.r2net.com timed out. (connect timeout=120)'))
+2025-12-17 18:08:59 - src.openai_client - WARNING - Failed to download or encode image from URL 'https://ion.r2net.com/certs/Gertificate/87f32baa-0274-44cd-a247-3d9ac6969808': HTTPSConnectionPool(host='ion.r2net.com', port=443): Max retries exceeded with url: /certs/Gertificate/87f32baa-0274-44cd-a247-3d9ac6969808 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x10d143610>, 'Connection to ion.r2net.com timed out. (connect timeout=120)'))
+2025-12-17 18:10:06 - src.batch_client - INFO - Creating batch input file: /Users/psisquare/Desktop/Digitization/2..CallOpenAI/batchfiles/batch_input_4.jsonl
+2025-12-17 18:10:06 - src.batch_client - INFO - Created batch input file with 20 requests
+2025-12-17 18:10:06 - __main__ - INFO -   ✓ Created batch_input_4.jsonl with 20 requests
+2025-12-17 18:10:19 - src.batch_client - INFO - Creating batch input file: /Users/psisquare/Desktop/Digitization/2..CallOpenAI/batchfiles/batch_input_9.jsonl
+2025-12-17 18:10:19 - src.batch_client - INFO - Created batch input file with 20 requests
+2025-12-17 18:10:19 - __main__ - INFO -   ✓ Created batch_input_9.jsonl with 20 requests
+2025-12-17 18:10:23 - src.batch_client - INFO - Creating batch input file: /Users/psisquare/Desktop/Digitization/2..CallOpenAI/batchfiles/batch_input_7.jsonl
+2025-12-17 18:10:23 - src.batch_client - INFO - Created batch input file with 20 requests
+2025-12-17 18:10:23 - __main__ - INFO -   ✓ Created batch_input_7.jsonl with 20 requests
+2025-12-17 18:10:43 - src.batch_client - INFO - Creating batch input file: /Users/psisquare/Desktop/Digitization/2..CallOpenAI/batchfiles/batch_input_8.jsonl
+2025-12-17 18:10:43 - src.batch_client - INFO - Created batch input file with 20 requests
+2025-12-17 18:10:43 - __main__ - INFO -   ✓ Created batch_input_8.jsonl with 20 requests
+2025-12-17 18:10:47 - src.batch_client - INFO - Creating batch input file: /Users/psisquare/Desktop/Digitization/2..CallOpenAI/batchfiles/batch_input_5.jsonl
+2025-12-17 18:10:47 - src.batch_client - INFO - Created batch input file with 20 requests
+2025-12-17 18:10:47 - __main__ - INFO -   ✓ Created batch_input_5.jsonl with 20 requests
+2025-12-17 18:11:06 - src.batch_client - INFO - Creating batch input file: /Users/psisquare/Desktop/Digitization/2..CallOpenAI/batchfiles/batch_input_3.jsonl
+2025-12-17 18:11:06 - src.batch_client - INFO - Created batch input file with 20 requests
+2025-12-17 18:11:06 - __main__ - INFO -   ✓ Created batch_input_3.jsonl with 20 requests
+2025-12-17 18:11:07 - src.batch_client - INFO - Creating batch input file: /Users/psisquare/Desktop/Digitization/2..CallOpenAI/batchfiles/batch_input_6.jsonl
+2025-12-17 18:11:07 - src.batch_client - INFO - Created batch input file with 20 requests
+2025-12-17 18:11:07 - __main__ - INFO -   ✓ Created batch_input_6.jsonl with 20 requests
+2025-12-17 18:11:11 - src.batch_client - INFO - Creating batch input file: /Users/psisquare/Desktop/Digitization/2..CallOpenAI/batchfiles/batch_input_2.jsonl
+2025-12-17 18:11:11 - src.batch_client - INFO - Created batch input file with 20 requests
+2025-12-17 18:11:11 - __main__ - INFO -   ✓ Created batch_input_2.jsonl with 20 requests
+2025-12-17 18:11:13 - src.batch_client - INFO - Creating batch input file: /Users/psisquare/Desktop/Digitization/2..CallOpenAI/batchfiles/batch_input_0.jsonl
+2025-12-17 18:11:13 - src.batch_client - INFO - Created batch input file with 20 requests
+2025-12-17 18:11:13 - __main__ - INFO -   ✓ Created batch_input_0.jsonl with 20 requests
+2025-12-17 18:11:23 - src.batch_client - INFO - Creating batch input file: /Users/psisquare/Desktop/Digitization/2..CallOpenAI/batchfiles/batch_input_1.jsonl
+2025-12-17 18:11:23 - src.batch_client - INFO - Created batch input file with 20 requests
+2025-12-17 18:11:23 - __main__ - INFO -   ✓ Created batch_input_1.jsonl with 20 requests
+2025-12-17 18:11:23 - __main__ - INFO - ======================================================================
+2025-12-17 18:11:23 - __main__ - INFO - ✓ All batch input files created successfully!
+2025-12-17 18:11:23 - __main__ - INFO - ✓ Total jobs: 10
+2025-12-17 18:11:23 - __main__ - INFO - ✓ Manifest file: /Users/psisquare/Desktop/Digitization/2..CallOpenAI/batchfiles/batch_input_manifest.json
+2025-12-17 18:11:23 - __main__ - INFO - ======================================================================
+2025-12-17 18:11:23 - __main__ - INFO - 
+2025-12-17 18:11:23 - __main__ - INFO - Created files:
+2025-12-17 18:11:23 - __main__ - INFO -   - batch_input_4.jsonl (20 requests, 100 URLs)
+2025-12-17 18:11:23 - __main__ - INFO -   - batch_input_9.jsonl (20 requests, 100 URLs)
+2025-12-17 18:11:23 - __main__ - INFO -   - batch_input_7.jsonl (20 requests, 100 URLs)
+2025-12-17 18:11:23 - __main__ - INFO -   - batch_input_8.jsonl (20 requests, 100 URLs)
+2025-12-17 18:11:23 - __main__ - INFO -   - batch_input_5.jsonl (20 requests, 100 URLs)
+2025-12-17 18:11:23 - __main__ - INFO -   - batch_input_3.jsonl (20 requests, 100 URLs)
+2025-12-17 18:11:23 - __main__ - INFO -   - batch_input_6.jsonl (20 requests, 100 URLs)
+2025-12-17 18:11:23 - __main__ - INFO -   - batch_input_2.jsonl (20 requests, 100 URLs)
+2025-12-17 18:11:23 - __main__ - INFO -   - batch_input_0.jsonl (20 requests, 100 URLs)
+2025-12-17 18:11:23 - __main__ - INFO -   - batch_input_1.jsonl (20 requests, 100 URLs)
+2025-12-17 18:11:23 - __main__ - INFO - 
+2025-12-17 18:11:23 - __main__ - INFO - Next step: Run 'python 2..CallOpenAI/scripts/submit_batch_concurrent.py' to submit all jobs concurrently
+2025-12-17 18:11:23 - __main__ - INFO - Total time to create batch files: 348.40 seconds
+2025-12-17 18:11:23 - __main__ - INFO - Execution completed at: 2025-12-17T18:11:23

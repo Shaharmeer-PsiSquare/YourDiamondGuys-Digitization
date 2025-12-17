@@ -1,0 +1,266 @@
+[
+  {
+    "Diamond_type": "pear",
+    "Diamonds_req": {
+      "length_width_ratio": "1.48-1.55",
+      "depth": "59-63.9",
+      "table": "56-61",
+      "girdle": [
+        "thin",
+        "thin to medium",
+        "medium"
+      ],
+      "polish": [
+        "very good",
+        "excellent"
+      ],
+      "symmetry": [
+        "very good",
+        "excellent"
+      ],
+      "culet": [
+        "none",
+        "pointed",
+        "very small"
+      ]
+    }
+  },
+  {
+    "Diamond_type": "round",
+    "Diamonds_req": {
+      "table": "55-57",
+      "depth": "61-62.4",
+      "girdle": [
+        "thin",
+        "thin to medium",
+        "medium"
+      ],
+      "culet": [
+        "none",
+        "pointed"
+      ],
+      "crown_angle": "33.5-35.5",
+      "pavilion_angle": "40.5-41.6",
+      "pavilion_depth": "43-44.8"
+    }
+  },
+  {
+    "Diamond_type": "oval",
+    "Diamonds_req": {
+      "length_width_ratio": "1.47-1.53",
+      "depth": "58-63",
+      "table": "56-60",
+      "girdle": [
+        "thin",
+        "thin to medium",
+        "medium"
+      ],
+      "polish": [
+        "very good",
+        "excellent"
+      ],
+      "symmetry": [
+        "very good",
+        "excellent"
+      ],
+      "culet": [
+        "none",
+        "pointed",
+        "very small"
+      ]
+    }
+  },
+  {
+    "Diamond_type": "princess",
+    "Diamonds_req": {
+      "length_width_ratio": "1-1.04",
+      "depth": "68-74",
+      "table": "68-74",
+      "girdle": [
+        "thin",
+        "thin to medium",
+        "medium"
+      ],
+      "polish": [
+        "very good",
+        "excellent"
+      ],
+      "symmetry": [
+        "very good",
+        "excellent"
+      ],
+      "culet": [
+        "none",
+        "pointed",
+        "very small"
+      ]
+    }
+  },
+  {
+    "Diamond_type": "emerald",
+    "Diamonds_req": {
+      "length_width_ratio": "1.38-1.44",
+      "depth": "62.9-66.9",
+      "table": "59-64",
+      "girdle": [
+        "thin",
+        "thin to medium",
+        "medium"
+      ],
+      "polish": [
+        "very good",
+        "excellent"
+      ],
+      "symmetry": [
+        "very good",
+        "excellent"
+      ],
+      "culet": [
+        "none",
+        "pointed",
+        "very small"
+      ]
+    }
+  },
+  {
+    "Diamond_type": "asscher",
+    "Diamonds_req": {
+      "length_width_ratio": "1-1.04",
+      "depth": "63-66.9",
+      "table": "56-60",
+      "girdle": [
+        "thin to medium",
+        "medium"
+      ],
+      "polish": [
+        "very good",
+        "excellent"
+      ],
+      "symmetry": [
+        "very good",
+        "excellent"
+      ],
+      "culet": [
+        "none"
+      ]
+    }
+  },
+  {
+    "Diamond_type": "cushion",
+    "Diamonds_req": {
+      "depth": "62.9-66.9",
+      "table": "58-63",
+      "girdle": [
+        "thin",
+        "thin to medium",
+        "medium"
+      ],
+      "polish": [
+        "very good",
+        "excellent"
+      ],
+      "symmetry": [
+        "very good",
+        "excellent"
+      ],
+      "culet": [
+        "none",
+        "pointed",
+        "very small"
+      ]
+    }
+  },
+  {
+    "Diamond_type": "heart",
+    "Diamonds_req": {
+      "length_width_ratio": "0.9-1.05",
+      "depth": "58-62",
+      "table": "53-63",
+      "girdle": [
+        "thin to medium",
+        "medium"
+      ],
+      "polish": [
+        "very good",
+        "excellent"
+      ],
+      "symmetry": [
+        "very good",
+        "excellent"
+      ],
+      "culet": [
+        "none"
+      ]
+    }
+  },
+  {
+    "Diamond_type": "marquise",
+    "Diamonds_req": {
+      "length_width_ratio": "1.8-2.05",
+      "depth": "58-62.9",
+      "table": "55-63",
+      "girdle": [
+        "thin",
+        "thin to medium",
+        "medium"
+      ],
+      "polish": [
+        "very good",
+        "excellent"
+      ],
+      "symmetry": [
+        "very good",
+        "excellent"
+      ],
+      "culet": [
+        "none"
+      ]
+    }
+  },
+  {
+    "Diamond_type": "radiant sq",
+    "Diamonds_req": {
+      "depth": "64.9-66.9",
+      "table": "64-68",
+      "girdle": [
+        "thin",
+        "thin to medium",
+        "medium"
+      ],
+      "polish": [
+        "very good",
+        "excellent"
+      ],
+      "symmetry": [
+        "very good",
+        "excellent"
+      ],
+      "culet": [
+        "none"
+      ]
+    }
+  },
+  {
+    "Diamond_type": "radiant rec",
+    "Diamonds_req": {
+      "depth": "64.9-66.9",
+      "table": "64-68",
+      "girdle": [
+        "thin",
+        "thin to medium",
+        "medium"
+      ],
+      "polish": [
+        "very good",
+        "excellent"
+      ],
+      "symmetry": [
+        "very good",
+        "excellent"
+      ],
+      "culet": [
+        "none"
+      ]
+    }
+  }
+]
