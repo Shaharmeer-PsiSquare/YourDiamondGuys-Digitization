@@ -2,7 +2,6 @@ import psycopg2
 import os
 import json
 from pathlib import Path
-
 from dotenv import load_dotenv
 
 
@@ -78,108 +77,116 @@ def _append_lifetime_diamonds(diamond_ids: list[str]) -> None:
         print(f"Warning: Failed to append to lifetime log: {e}")
 
 
-# 1. Database Configuration
-DB_CONFIG = _load_db_config()
+def main():
+    # 1. Database Configuration
+    DB_CONFIG = _load_db_config()
 
-# 2. The Output Filename for the current batch
-output_filename = "1.FetchFromDB/diamond_records.json"
+    # 2. The Output Filename for the current batch
+    output_filename = "1.FetchFromDB/diamond_records.json"
 
-# Remove previous output file at the start of each run
-try:
-    if os.path.exists(output_filename):
-        os.remove(output_filename)
-        print(f"Deleted existing file: {os.path.abspath(output_filename)}")
-except Exception as e:
-    print(f"Warning: could not delete existing output file: {e}")
+    # Remove previous output file at the start of each run
+    try:
+        if os.path.exists(output_filename):
+            os.remove(output_filename)
+            print(f"Deleted existing file: {os.path.abspath(output_filename)}")
+    except Exception as e:
+        print(f"Warning: could not delete existing output file: {e}")
 
-print("Connecting to database...")
+    print("Connecting to database...")
 
-try:
-    # 4. Connect to Database
-    conn = psycopg2.connect(**DB_CONFIG)
-    cursor = conn.cursor()
+    conn = None
+    cursor = None
 
-    # 3. Read the last Primary Key ID to resume pagination (fix for random diamond_id issue)
-    last_id = _read_last_id()
-    print(f"Resuming from Primary Key ID: {last_id}")
+    try:
+        # 4. Connect to Database
+        conn = psycopg2.connect(**DB_CONFIG)
+        cursor = conn.cursor()
 
-    # Query uses 'id' for stable sorting/pagination
-    base_query = """
-        SELECT id, diamond_id, certificate_link
-        FROM "Affiliate_app_productinfo" app 
-        WHERE digitization_id IS NULL 
-          AND sell_status IS FALSE
-          AND id > %s
-        ORDER BY id ASC
-        LIMIT 1000;
-    """
+        # 3. Read the last Primary Key ID to resume pagination
+        last_id = _read_last_id()
+        print(f"Resuming from Primary Key ID: {last_id}")
 
-    # 5. Execute Query
-    print("Executing query...")
-    cursor.execute(base_query, (last_id,))
+        # Query uses 'id' for stable sorting/pagination
+        base_query = """
+            SELECT id, diamond_id, certificate_link
+            FROM "Affiliate_app_productinfo" app 
+            WHERE digitization_id IS NULL 
+              AND sell_status IS FALSE
+              AND id > %s
+            ORDER BY id ASC
+            LIMIT 1000;
+        """
 
-    # 6. Fetch Data
-    if cursor.description:
-        columns = [desc[0] for desc in cursor.description]
-        rows = cursor.fetchall()
+        # 5. Execute Query
+        print("Executing query...")
+        cursor.execute(base_query, (last_id,))
 
-        print(f"Fetched {len(rows)} rows. Processing...")
+        # 6. Fetch Data
+        if cursor.description:
+            columns = [desc[0] for desc in cursor.description]
+            rows = cursor.fetchall()
 
-        try:
-            pk_index = columns.index("id")
-            d_id_index = columns.index("diamond_id")
-            link_index = columns.index("certificate_link")
-            
-            output_data = []
-            fetched_diamond_ids = []  # List to store IDs for the lifetime file
-            max_pk_id = last_id 
+            print(f"Fetched {len(rows)} rows. Processing...")
 
-            for row in rows:
-                current_pk = row[pk_index]
-                d_id = row[d_id_index]
-                link = row[link_index]
+            try:
+                pk_index = columns.index("id")
+                d_id_index = columns.index("diamond_id")
+                link_index = columns.index("certificate_link")
                 
-                # Track max ID for pagination
-                if current_pk > max_pk_id:
-                    max_pk_id = current_pk
+                output_data = []
+                fetched_diamond_ids = []  # List to store IDs for the lifetime file
+                max_pk_id = last_id 
+
+                for row in rows:
+                    current_pk = row[pk_index]
+                    d_id = row[d_id_index]
+                    link = row[link_index]
+                    
+                    # Track max ID for pagination
+                    if current_pk > max_pk_id:
+                        max_pk_id = current_pk
+                    
+                    if link:
+                        # Add to JSON output list
+                        output_data.append({
+                            "diamond_id": d_id,
+                            "certificate_link": link
+                        })
+                        # Add to lifetime tracking list
+                        fetched_diamond_ids.append(str(d_id))
+
+                # Write JSON output for this specific run
+                os.makedirs(os.path.dirname(output_filename), exist_ok=True)
+                with open(output_filename, 'w', encoding='utf-8') as f:
+                    json.dump(output_data, f, indent=2)
+                print(f"Success! {len(output_data)} records saved to: {os.path.abspath(output_filename)}")
+
+                # --- NEW: Append to lifetime file ---
+                if fetched_diamond_ids:
+                    _append_lifetime_diamonds(fetched_diamond_ids)
+
+                # Update pagination pointer with the highest ID seen
+                if rows:
+                    _write_last_id(max_pk_id)
+                    print(f"Updated last_processed_id.txt to: {max_pk_id}")
                 
-                if link:
-                    # Add to JSON output list
-                    output_data.append({
-                        "diamond_id": d_id,
-                        "certificate_link": link
-                    })
-                    # Add to lifetime tracking list
-                    fetched_diamond_ids.append(str(d_id))
+            except ValueError as e:
+                print(f"Error: Column missing in results. Available columns: {columns}")
+                print(f"Details: {e}")
 
-            # Write JSON output for this specific run
-            os.makedirs(os.path.dirname(output_filename), exist_ok=True)
-            with open(output_filename, 'w', encoding='utf-8') as f:
-                json.dump(output_data, f, indent=2)
-            print(f"Success! {len(output_data)} records saved to: {os.path.abspath(output_filename)}")
+        else:
+            print("Query executed but returned no results/description.")
 
-            # --- NEW: Append to lifetime file ---
-            if fetched_diamond_ids:
-                _append_lifetime_diamonds(fetched_diamond_ids)
+    except Exception as e:
+        print(f"An error occurred: {e}")
 
-            # Update pagination pointer with the highest ID seen
-            if rows:
-                _write_last_id(max_pk_id)
-                print(f"Updated last_processed_id.txt to: {max_pk_id}")
-            
-        except ValueError as e:
-            print(f"Error: Column missing in results. Available columns: {columns}")
-            print(f"Details: {e}")
+    finally:
+        if cursor:
+            cursor.close()
+        if conn:
+            conn.close()
+        print("Database connection closed.")
 
-    else:
-        print("Query executed but returned no results/description.")
 
-except Exception as e:
-    print(f"An error occurred: {e}")
-
-finally:
-    if 'cursor' in locals():
-        cursor.close()
-    if 'conn' in locals():
-        conn.close()
-    print("Database connection closed.")
+if __name__ == "__main__":
+    main()

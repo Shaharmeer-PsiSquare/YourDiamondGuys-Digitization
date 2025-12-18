@@ -128,7 +128,7 @@ def build_api_payload(
         "model": config.model_name,
         "temperature": config.temperature,
         "messages": messages,
-        "max_tokens": config.max_tokens
+        # "max_tokens": config.max_tokens
     }
     
     return payload

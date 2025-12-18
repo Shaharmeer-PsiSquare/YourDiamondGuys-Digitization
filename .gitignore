@@ -1,0 +1,29 @@
+# Folder-based ignores
+**/logs/
+**/__pycache__/
+**/.ipynb_checkpoints/
+
+# File-based ignores
+*.log
+.env
+.DS_Store
+*.pyc
+
+# Project-specific data handoffs (Don't track these huge temp files!)
+diamond_records.json
+batch_input_*.jsonl
+batch_results_*.json
+OpenAIresults.json
+batch_job_ids.json
+
+# Local environment/IDE
+.vscode/
+.cursor/
+.idea/
+venv/
+.venv/
+
+# Ignore all data-heavy files
+*.json
+*.json.old
+*.jsonl

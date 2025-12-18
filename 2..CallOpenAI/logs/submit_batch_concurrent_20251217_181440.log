@@ -1,9 +1,0 @@
-2025-12-17 18:14:40 - root - INFO - Logging configured at INFO level
-2025-12-17 18:14:40 - root - INFO - Logging to file: /Users/psisquare/Desktop/Digitization/2..CallOpenAI/logs/submit_batch_concurrent_20251217_181440.log
-2025-12-17 18:14:40 - __main__ - INFO - ======================================================================
-2025-12-17 18:14:40 - __main__ - INFO - Submit Concurrent Batch Jobs
-2025-12-17 18:14:40 - __main__ - INFO - ======================================================================
-2025-12-17 18:14:40 - __main__ - INFO - Loading configuration...
-2025-12-17 18:14:40 - src.config - INFO - Configuration loaded successfully
-2025-12-17 18:14:40 - __main__ - ERROR - Manifest file not found: /Users/psisquare/Desktop/Digitization/2..CallOpenAI/batchfiles/batch_input_manifest.json
-2025-12-17 18:14:40 - __main__ - ERROR - Please run 'python 2..CallOpenAI/scripts/create_batch_concurrent.py' first.

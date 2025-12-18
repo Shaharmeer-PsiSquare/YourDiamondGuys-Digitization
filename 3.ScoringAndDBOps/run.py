@@ -120,7 +120,24 @@ else:
         print(msg)
         logger.exception("Failed enriching results with diamond_id")
 
-
+    # 4.b Persist enriched data for DB insertion (InsertToDb.json)
+    try:
+        insert_path = os.path.join(os.path.dirname(__file__), "InsertToDb.json")
+        
+        # Explicitly delete the file if it exists to ensure a clean slate
+        if os.path.exists(insert_path):
+            os.remove(insert_path)
+            logger.info("Deleted existing %s to ensure fresh data", insert_path)
+        
+        # Opening in 'w' mode already overwrites, but the remove() above 
+        # guarantees no legacy file locks or permission residue interferes.
+        with open(insert_path, "w", encoding="utf-8") as out_f:
+            json.dump(openai_response, out_f, indent=2)
+            
+        logger.info("Wrote %d enriched records (with diamond_id where available) to %s",
+                    len(openai_response), insert_path)
+    except Exception:
+        logger.exception("Failed to refresh and write InsertToDb.json")
 
 # 5. Run Scoring Loop
 separator = "-" * 160
