@@ -122,7 +122,7 @@ def main():
                 logger.info("Waiting 5 minutes before next submission...")
                 time.sleep(5 * 60)
         
-        # 2. Save Initial Job IDs
+        # # 2. Save Initial Job IDs
         job_ids_path = batch_dir / args.job_ids_file
         with open(job_ids_path, "w") as f:
             json.dump({"jobs": job_results}, f, indent=2)

@@ -1,5 +1,8 @@
 import json
+from pathlib import Path
+
 import tiktoken
+
 
 def count_tokens_in_file(file_path, model="gpt-4o"):
     """
@@ -40,8 +43,17 @@ def count_tokens_in_file(file_path, model="gpt-4o"):
     except FileNotFoundError:
         print(f"Error: File '{file_path}' not found.")
         return 0
+    except Exception as e:
+        print(f"Error while reading '{file_path}': {e}")
+        return 0
 
-# --- Usage ---
-# Replace with your actual filename
-file_name = "batch_input_0.jsonl" 
-count_tokens_in_file(file_name, model="gpt-4.1-mini")
+
+if __name__ == "__main__":
+    """
+    Default usage: count tokens for the latest main batch file.
+    Assumes the batch input file lives in 2..CallOpenAI/batchfiles/.
+    """
+    # helpers/ -> scripts/ -> 2..CallOpenAI/
+    project_root = Path(__file__).resolve().parents[2]
+    file_path = project_root / "batchfiles" / "batch_input_0.jsonl"
+    count_tokens_in_file(str(file_path), model="gpt-4.1-mini")
